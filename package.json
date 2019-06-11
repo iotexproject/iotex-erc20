@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "iotex ERC20 package",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "author": "Yang XuePing (leo@iotex.io)",
   "license": "APACHE",
   "scripts": {
