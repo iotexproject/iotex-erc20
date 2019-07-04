@@ -163,7 +163,7 @@ export class ERC20 implements IERC20 {
       gasLimit,
       "0",
       to,
-      value.toString()
+      value.toFixed(0)
     );
   }
 
@@ -199,7 +199,7 @@ export class ERC20 implements IERC20 {
       gasLimit,
       "0",
       spender,
-      value.toString()
+      value.toFixed(0)
     );
   }
 
@@ -219,7 +219,7 @@ export class ERC20 implements IERC20 {
       "0",
       from,
       to,
-      value.toString()
+      value.toFixed(0)
     );
   }
 
